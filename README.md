@@ -1,6 +1,12 @@
 This repository holds the source for three volumes of the Conceptual Design Report for the next long-baseline experiment at Fermilab.
 ====
 
+Releases
+---
+
+This is the release branch.  See point releases on the
+[release page](https://github.com/LBNE/lbn-cdr/releases).
+
 Guidance
 ---
 

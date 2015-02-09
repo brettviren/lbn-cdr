@@ -3,13 +3,11 @@
 *.fls
 *.log
 *.fdb_latexmk
-volume-*.pdf
 *.bbl
 *.blg
 tests/tables.pdf
 .DS_Store
 .svn
-
 *.lof
 *.lot
 *.nlo
