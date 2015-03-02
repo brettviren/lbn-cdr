@@ -1,2 +1,2 @@
 compiler: pdflatex
-root_file: volume-fd.tex
+root_file: main.tex

@@ -4,7 +4,8 @@
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{cdr}[2015/02/02]
-\LoadClass[12pt,letterpaper]{report}
+%\LoadClass[12pt,letterpaper]{report}
+\LoadClass[12pt,letterpaper]{memoir}
 
 \RequirePackage[letterpaper]{geometry}
 
@@ -76,6 +77,11 @@
 \setlength{\marginparwidth}{2cm}
 
 % Fancier headers
+
+% only needed if we base cdr.cls on memoir
+% http://tex.stackexchange.com/questions/37868/fancyhdr-and-memoir
+\let\footruleskip\undefined
+
 \RequirePackage{fancyhdr}
 
 \newcommand{\titlepagecornerblock}{}  

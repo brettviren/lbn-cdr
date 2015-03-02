@@ -1,0 +1,56 @@
+\ifdefined\isfinal\documentclass[final]{cdr}\else\documentclass{cdr}\fi
+\pdfoutput=1            % must be in first 5 lines so arXiv finds it
+
+\graphicspath{ {figures/}{volume-fd/figures/}{volume-fd/generated/}{volume-nd/figures/}{volume-nd/generated/}{volume-cryo/figures/}{volume-cryo/generated/} }
+
+\input{common/preamble}
+
+% Used on the volume title page.
+\renewcommand\thevolumesubtitle{}
+
+\begin{document}
+\input{common/init}
+
+
+\book{Far Detector}
+\input{volume-fd/chapter-intro}
+\cleardoublepage
+\input{volume-fd/chapter-tpc}
+\cleardoublepage
+\input{volume-fd/chapter-ce}
+\cleardoublepage
+\input{volume-fd/chapter-daq}
+\cleardoublepage
+\input{volume-fd/chapter-photon}
+\cleardoublepage
+\input{volume-fd/chapter-install}
+\cleardoublepage
+\input{volume-fd/chapter-r-and-d.tex}
+\cleardoublepage
+\input{volume-fd/chapter-alt.tex}
+
+\cleardoublepage
+
+\book{Near Detector}
+\input{volume-nd/chapter-intro}
+\cleardoublepage
+\input{volume-nd/chapter-nnd}
+\cleardoublepage
+\input{volume-nd/chapter-blm}
+\cleardoublepage
+\input{volume-nd/chapter-gdaq}
+\cleardoublepage
+\input{volume-nd/chapter-external}
+
+\cleardoublepage
+
+\book{Cryostat}
+\input{volume-cryo/chapter-intro}
+\cleardoublepage
+\input{volume-cryo/chapter-cryosys}
+
+
+\input{common/final}
+\end{document}
+
+
